@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       awards: "한국 코드페어 중등부 은상",
       image: "../images/members/junhyung.png",
     },
-    변재구: {
+    변제규: {
       name: "1410 변제규",
       job: "기획",
       intro:
@@ -21,25 +21,27 @@ document.addEventListener("DOMContentLoaded", () => {
       awards: "용인중학교 개근상<br />교과우수상",
       image: "../images/members/jegyu.png",
     },
-    장호영: {
+    정호영: {
       name: "1425 정호영",
       job: "개발 / 디자인",
       intro:
         "저는 저의 경력이 부족함을 압니다. 저는 디미톤을 통해 이 경력 부족을 더 큰 성장 동력으로 전환하고 싶습니다. 디미톤 참가를 위해 React 및 React Native를 학습하여 프론트엔드 개발 능력을 강화할 것이며, Figma 디자인 기초를 학습하여 디자이너와의 원활한 소통 기반을 마련할 것입니다. 아울러 클론 코딩 프로젝트를 통해 실전 경험을 체득하여, 디미톤 참가에 충분한 개발 역량을 갖추기 위해 노력할 것입니다.<br />배움에 대한 열린 자세로 디미톤에서 많은 것을 배워, 이를 밑거름으로 다른 해커톤과 개발 대회도 경험하고 싶습니다. 많이 경험하고 많이 배워 쌓은 실력을 바탕으로, 의미있는 서비스를 만들어가는 개발자로 성장하고 싶습니다. 기회가 주어진다면, 디미톤에서 최선을 다해 배우고 성장하겠습니다.",
       skills: "HTML, CSS, JavaScript, Python, C, VSCode, PowerPoint",
       projects:
-        "Python 영단어 암기장 제작<br />Software FUTURE & DREAM Challenge 2025 (진행 중)",
+        "Python 영단어 암기장 제작<br />C언어 염기서열 전사 시뮬레이터<br />Software FUTURE & DREAM Challenge 2025 (진행 중)",
       awards: "2025 디미톤(예정)",
       image: "../images/members/hoyoung.png",
     },
-    염예이: {
+    장현중: {
       name: "1423 장현중",
-      job: "개발",
+      job: "기획 / 개발",
       intro:
-        "염예이입니다. 프론트엔드 개발을 주로 하고 있습니다. 최신 웹 기술 트렌드를 학습하며 효율적이고 유지보수가 용이한 코드를 작성하는 것을 좋아합니다. 팀원들과 소통하며 문제를 해결하는 과정에서 즐거움을 느낍니다.",
-      skills: "HTML, CSS, JavaScript, React, Vue.js",
-      projects: "개인 포트폴리오 웹사이트 제작 / 반응형 웹 디자인",
-      awards: "교내 해커톤 최우수상",
+        "한번도 개발 대회를 나가보지 않아서 이번에 한번 학교 내부 대회를 도전하면서 저의 코딩실력을 다각도로 향상시키고 싶습니다. 저희 팀은 아직 실전 경험이 부족하지만 팀간의 화합을 잘 이루고 성실한 태도를 보이는 팀원들로 구성되어 있습니다. 팀원들과의 영리한 협동을 통해 더 나은 개발자적 역량을 기를 것입니다. 저도 또한 이것을 생각하고 백준에 국한되는 것이 아닌 HTML, CSS, JS등을 공부하여 꼭 사회에 나가 긍정적인 웹 사이트 등을 개설하고 싶습니다.",
+      skills: "Python, C, HTML, CSS, JavaScript, Figma, Excel, C#",
+      projects:
+        "순수 C로 구현하는 부루마블<br />순수 C로 구현하는 체스<br />크롤링",
+      awards:
+        "2024 한국정보올림피아드 1차/2차 부문 동상<br />2025 한국정보올림피아드 1차 동상 2차 장려상",
       image: "../images/members/hyunjung.png",
     },
   };
@@ -117,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  renderPortfolio("변재구");
+  renderPortfolio("변제규");
 });
 
 const backButton = document.getElementById("backButton");
